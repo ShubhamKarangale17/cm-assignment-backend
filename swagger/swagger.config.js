@@ -14,6 +14,10 @@ const swaggerDefinition = {
   },
   servers: [
     {
+      url: 'https://contract-manager-backend.onrender.com',
+      description: 'Production server (Render)',
+    },
+    {
       url: 'http://localhost:5000',
       description: 'Development server',
     },
